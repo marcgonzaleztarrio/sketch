@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body{
+    width: 100vw;
+    height: 100vh;
+} */
+
+.grid-item {
+  background: red;
+  color: white;
+  user-select: none;
+}
+
+.prueba {
+  background: blue;
+}
+
+.container {
+  display: grid;
+  width: 500px;
+  height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid red;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
