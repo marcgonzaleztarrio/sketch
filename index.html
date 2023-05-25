@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sketch</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <input id="sizeGrid" type="range" value="16" min="1" max="64" />
-   <div id="container" class="container"></div> 
-   <script src="app.js"></script>
-</body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Sketch</h1>
+    <div class="containerGrid">
+      <div class="changeGrid">
+        <input id="sizeGrid" type="range" value="16" min="1" max="50" />
+        <h4 id="textoSizeGrid" class="textoSize"></h4>
+        <h5>Paint</h5>
+        <input id="color" type="color" value="#333333" />
+        <h4 id="textoColorGrid" class="textoColor"></h4>
+        <h5>BG</h5>
+        <input id="colorBG" type="color" value="#333333" />
+        <h4 id="textoColorBG" class="textoBG"></h4>
+      </div>
+
+      <div id="container" class="container"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>

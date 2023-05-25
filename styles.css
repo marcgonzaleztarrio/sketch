@@ -4,19 +4,14 @@
   box-sizing: border-box;
 }
 
-/* body{
-    width: 100vw;
-    height: 100vh;
-} */
-
 .grid-item {
-  background: red;
+  background: #ff0000;
   color: white;
   user-select: none;
 }
 
 .prueba {
-  background: blue;
+  background: #0000ff;
 }
 
 .container {
@@ -25,7 +20,28 @@
   height: 500px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border: 1px solid red;
-  position: absolute;
-  top: 15%;
-  left: 25%;
+}
+
+.containerGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  align-items: center;
+  margin-top: 6%;
+  margin-right: 5%;
+}
+
+.changeGrid > input {
+  margin-top: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 6%;
+  font-size: 100px;
+}
+
+.textoSize,
+.textoColor {
+  margin-bottom: 20px;
 }
