@@ -5,13 +5,9 @@
 }
 
 .grid-item {
-  background: #ff0000;
+  background: #aea7a7;
   color: white;
   user-select: none;
-}
-
-.prueba {
-  background: #0000ff;
 }
 
 .container {
@@ -19,7 +15,7 @@
   width: 500px;
   height: 500px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border: 1px solid red;
+  border: 1px solid rgb(2, 2, 2);
 }
 
 .containerGrid {
@@ -44,4 +40,18 @@ h1 {
 .textoSize,
 .textoColor {
   margin-bottom: 20px;
+}
+
+#pruebaSuu {
+  background-image: url(pinguinomadagascar.png);
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.changeGrid {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
